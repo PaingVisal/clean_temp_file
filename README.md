@@ -57,3 +57,7 @@ iwr https://raw.githubusercontent.com/PaingVisal/clean_temp_file/main/GameOptimi
 ```
 iwr https://raw.githubusercontent.com/PaingVisal/clean_temp_file/main/gamelaunchertweaks.ps1 -OutFile "gamelaunchertweaks.ps1"; Start-Process powershell -ArgumentList "-ExecutionPolicy Bypass -File gamelaunchertweaks.ps1" -NoNewWindow -Wait
 ```
+# obs debloat
+```
+iwr https://raw.githubusercontent.com/PaingVisal/clean_temp_file/main/obs_debloat.ps1 -OutFile "obs_debloat.ps1"; Start-Process powershell -ArgumentList "-ExecutionPolicy Bypass -File obs_debloat.ps1" -NoNewWindow -Wait
+```

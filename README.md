@@ -53,7 +53,7 @@ iwr https://raw.githubusercontent.com/PaingVisal/clean_temp_file/main/GameOptimi
 ```
 iwr https://raw.githubusercontent.com/PaingVisal/clean_temp_file/main/GameOptimization_NVIDIA.ps1 -OutFile "GameOptimization_NVIDIA.ps1"; Start-Process powershell -ArgumentList "-ExecutionPolicy Bypass -File GameOptimization_NVIDIA.ps1" -NoNewWindow -Wait
 ```
-# gamelaunchertweak
+# game launcher tweak
 ```
 iwr https://raw.githubusercontent.com/PaingVisal/clean_temp_file/main/gamelaunchertweaks.ps1 -OutFile "gamelaunchertweaks.ps1"; Start-Process powershell -ArgumentList "-ExecutionPolicy Bypass -File gamelaunchertweaks.ps1" -NoNewWindow -Wait
 ```

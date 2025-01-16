@@ -61,3 +61,7 @@ iwr https://raw.githubusercontent.com/PaingVisal/clean_temp_file/main/gamelaunch
 ```
 iwr https://raw.githubusercontent.com/PaingVisal/clean_temp_file/main/obs_debloat.ps1 -OutFile "obs_debloat.ps1"; Start-Process powershell -ArgumentList "-ExecutionPolicy Bypass -File obs_debloat.ps1" -NoNewWindow -Wait
 ```
+steam launch option
+```
+-KoreanRating -USEALLAVAILABLECORES -sm4 -d3d11 -malloc=system -high
+```

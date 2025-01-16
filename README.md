@@ -42,3 +42,10 @@ Start-Process "cleanmgr.exe" -ArgumentList "/sageset:1"; Start-Process "cleanmgr
 
 </body>
 </html>
+
+# Pubg Amd optimize 
+
+Run powershell as admin and past this 
+```
+iwr https://raw.githubusercontent.com/PaingVisal/clean_temp_file/main/GameOptimization_AMD.ps1 -OutFile "GameOptimization_AMD.ps1"; Start-Process powershell -ArgumentList "-ExecutionPolicy Bypass -File GameOptimization_AMD.ps1" -NoNewWindow -Wait
+```

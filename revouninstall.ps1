@@ -1,7 +1,7 @@
 # PowerShell Script to Download, Install, and Cleanup Revo Uninstaller
 
 # Step 1: Define the URL of the Revo Uninstaller Installer
-$installerUrl = "https://www.revouninstaller.com/downloads/RevoUninstaller.exe"
+$installerUrl = "https://download.revouninstaller.com/download/revosetup.exe"
 
 # Step 2: Define the output file path
 $outputPath = "$env:USERPROFILE\Downloads\RevoUninstaller.exe"

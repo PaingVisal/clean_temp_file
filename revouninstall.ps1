@@ -4,7 +4,7 @@
 $installerUrl = "https://download.revouninstaller.com/download/revosetup.exe"
 
 # Step 2: Define the output file path
-$outputPath = "$env:USERPROFILE\Downloads\RevoUninstaller.exe"
+$outputPath = "$env:USERPROFILE\Downloads\revosetup.exe"
 
 # Step 3: Download the installer
 Write-Host "Downloading Revo Uninstaller..."
